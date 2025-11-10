@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body
+
+        <!-- კომენტარი ატრიბუტებზე:
+        name — ფორმის ელემენტების იდენტიფიკატორია, გამოიყენება მონაცემების გადასაცემად სერვერზე.
+        value — განსაზღვრავს მნიშვნელობას, რომელიც იგზავნება სერვერზე ფორმის გაგზავნისას.
+        id — უნიკალური იდენტიფიკატორი ელემენტისთვის (ამ ვერსიაში არ გამოიყენება). -->
+
+    <h2>1) ფორმა</h2>
+
+    <form action="#" method="post">
+        <label>თქვენი სახელი:</label>
+        <input type="text" name="user_name" value=""><br><br>
+
+        <label>ელ.ფოსტა:</label>
+        <input type="email" name="user_email" value=""><br><br>
+
+        <label>ასაკი:</label>
+        <input type="number" name="user_age" value=""><br><br>
+
+        <input type="submit" value="გაგზავნა">
+    </form>
+
+    <hr>
+
+    <h2>2) ჩემი საყვარელი მანქანები</h2>
+    <form>
+        <p>აირჩიე შენი საყვარელი მანქანები:</p>
+
+        <input type="checkbox" name="favorite_car" value="bmw" checked> BMW<br>
+        <input type="checkbox" name="favorite_car" value="audi"> Audi<br>
+        <input type="checkbox" name="favorite_car" value="mercedes"> Mercedes-Benz<br>
+        <input type="checkbox" name="favorite_car" value="toyota"> Toyota<br>
+        <input type="checkbox" name="favorite_car" value="porsche"> Porsche<br>
+    </form>
+
+    <hr>
+
+    <h2>3) ჩემი საყვარელი ხილი</h2>
+    <form>
+        <p>აირჩიე შენი საყვარელი ხილი:</p>
+
+        <input type="checkbox" name="favorite_fruit" value="apple" checked> ვაშლი<br>
+        <input type="checkbox" name="favorite_fruit" value="banana"> ბანანი<br>
+        <input type="checkbox" name="favorite_fruit" value="kiwi"> კივი<br>
+        <input type="checkbox" name="favorite_fruit" value="mango"> მანგო<br>
+        <input type="checkbox" name="favorite_fruit" value="orange"> ფორთოხალი<br>
+    </form>
+
+    <hr>
+</body>
+</html>
