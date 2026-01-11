@@ -1,0 +1,26 @@
+/* 1) */
+.container {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+/* 2)*/
+h1 {
+    color: red;
+}
+.title {
+    color: green;
+}
+.extra-title {
+    color: purple;
+}
+#mainTitle {
+    color: blue;
+}
+.text {
+    color: black;
+}
+.text i {
+    color: orange;
+}
+/* 4) ID-ის გამოძახება ხდება #-ით. Class-ის გამოძახება ხდება .-ით */
