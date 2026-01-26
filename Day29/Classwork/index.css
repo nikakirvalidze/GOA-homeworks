@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides:ital@0;1&display=swap');
+
+/* 1 */
+.red {
+    text-decoration: underline;
+    text-decoration-color: red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+/* 2 */
+.underline {
+    text-decoration: underline;
+    text-underline-offset: -8px;
+}
+
+/* 3 */
+#h1 {
+    text-transform: uppercase;
+}
+
+#h2 {
+    text-transform: capitalize;
+}
+
+#h3 {
+    text-transform: lowercase;
+}
+
+/* 4 */
+.shadow-text {
+    text-shadow: 2px 2px 5px red;
+}
+
+/* 5 */
+.google-font {
+    font-family: 'Playwrite GB J Guides', cursive;
+}
+
+/* 6 */
+#weight {
+    font-weight: 700;
+}

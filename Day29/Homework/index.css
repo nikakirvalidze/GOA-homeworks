@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.p1 { font-family: 'Roboto', sans-serif; }
+.p2 { font-family: 'Lobster', sans-serif; }
+.p3 { font-family: 'Montserrat', sans-serif; }
+.p4 { font-family: 'Oswald', sans-serif; }
+.p5 { font-family: 'Pacifico', sans-serif; }
+
+.shadow {
+    text-shadow: 2px 2px 5px gray;
+}
+
+.styled {
+    text-shadow: 7px -3px 11px #CE5937;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+
+.overline-underline {
+  text-decoration: overline underline;
+}
+
+.underline-paragraph {
+  text-decoration:underline;text-align:center;font-size: 18px;
+}
