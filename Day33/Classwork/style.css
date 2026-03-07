@@ -1,0 +1,26 @@
+/* 1) */
+table.cars th, table.cars td {
+  border: solid #333;
+}
+table.cars tr:nth-child(even) {
+  background-color: #877a67;
+}
+/* 2) */
+table.friends {
+  border-collapse: collapse;
+}
+table.friends th, table.friends td {
+  border: 1px solid #333;
+}
+table.friends tr:nth-child(odd):hover {
+  background-color: #c8e6c9;
+}
+/* 3)*/
+ul.georgian {
+  list-style-type: georgian;
+}
+/* 4) */
+ol.roman {
+  list-style-type: upper-roman;
+  text-align: center;
+}
