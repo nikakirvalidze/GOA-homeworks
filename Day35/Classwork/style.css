@@ -1,0 +1,24 @@
+/* Content — ტექსტი */
+/* Padding — დაშორება content-ს და border-ს შორის */
+/* Border — ჩარჩო */
+/* Margin — გარედან დაშორება სხვა ელემენტებისგან */
+/* Content მერე Padding მერე Border და ბოლოს Margin */
+
+.box1 {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+
+    padding: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+
+    border: 5px solid black;
+    border-style: dotted;
+    border-color: yellow;
+
+    margin: 30px;
+    margin: 10px, 10px, 10px, 10px;
+}
