@@ -1,0 +1,64 @@
+/* flexbox-ი არის კონტეინერი რომელშიც ჩადებულ კოდს მარტივად შეგვიძლია შევუცვალოთ ადგილი */
+/* flex-direction: -აკონტრობელს მიმართულებას, ჰორიზონტალურად იყოს თუ ვერტიკალურად */
+/* justify-content: - ელემენტების აკონტროლებს x ან y ღერძზე, ანუ შეგვიძლია გავაკონტროლოთ თავში არიან შუაში თუ ბოლოში */
+/* align-items: - იგივე, რაც justify-content, მაგრამ x და y გაკონტროლებისთვის განსხვავებული კოდი აქ(საპირისპირო) */
+/* gap: - აშორებს ელემენტებს ერთმანეთისგან */
+body {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+    border: 2px dashed #999;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #537fec;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.container2 {
+    display: flex; 
+    flex-direction: column;
+    gap: 15px;
+    border: 2px dashed #999;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.box1 {
+    background-color: #537fec;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    border: 1px solid #ddd;
+}
+
+.flex-item {
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+.bg-yellow { background-color: yellow; }
+.bg-blue   { background-color: blue, }
+.bg-green  { background-color: green; }
