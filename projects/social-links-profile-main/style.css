@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #f5f5f5;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bento-grid {
+  display: grid;
+  width: 1100px;
+  /* 4 columns: the side ones are slightly narrower for a custom feel */
+  grid-template-columns: 1fr 1.2fr 1.2fr 1fr;
+  /* 6 rows allow us to align the bottom of different sized boxes */
+  grid-template-rows: repeat(6, 110px);
+  gap: 24px;
+}
+
+.grid-item {
+  background-color: hsl(0, 0%, 100%);
+  padding: 32px;
+  border-radius: 16px; /* Softer, more modern corners */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03); /* Subtle depth */
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- THE LEFT STACK --- */
+.item-7 { 
+  grid-column: 1 / 2; 
+  grid-row: 1 / 3; 
+  background-color: #faeee2; 
+}
+.item-8 { 
+  grid-column: 1 / 2; 
+  grid-row: 3 / 7; 
+  background-color: #ffcb6b; 
+}
+
+/* --- THE CENTER ANCHOR --- */
+.item-1 { 
+  grid-column: 2 / 4; 
+  grid-row: 1 / 3; 
+  background-color: #7651dc; 
+  color: hsl(0, 0%, 100%); 
+  text-align: center;
+  justify-content: center;
+}
+
+.item-2 { grid-column: 2 / 3; grid-row: 3 / 5; }
+.item-3 { grid-column: 3 / 4; grid-row: 3 / 5; background-color: #ffcb6b; }
+
+.item-5 { 
+  grid-column: 2 / 4; 
+  grid-row: 5 / 7; 
+  background-color: #7651dc; 
+  color: white; 
+}
+
+/* --- THE RIGHT STACK --- */
+.item-4 { 
+  grid-column: 4 / 5; 
+  grid-row: 1 / 5; 
+  background-color: #ddd0fb; 
+}
+.item-6 { 
+  grid-column: 4 / 5; 
+  grid-row: 5 / 7; 
+}
+
+/* Asset Control */
+h1, h2 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 12px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: auto; /* Pushes images to the bottom of the card */
+}

@@ -1,0 +1,36 @@
+/* ნავიგაცია - 3 თანაბარი სვეტი */
+.nav-grid {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* მთავარი კონტეინერი ინდექსისთვის და სიისთვის - 4 სვეტი */
+.main-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+
+/* თითოეული ფილმის ბლოკი */
+.movie-item {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* ფოტოები რომ არ გასცდეს თავის ადგილს */
+.movie-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* რეგისტრაციის ფორმისთვის */
+.form-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 20px;
+}
