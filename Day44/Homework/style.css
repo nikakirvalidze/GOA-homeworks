@@ -1,0 +1,67 @@
+/* 1 */
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  position: relative;
+  top: 40px;
+  left: 60px;
+  margin-bottom: 60px;
+}
+
+
+/* 2 */
+.boxblue {
+  width: 350px;
+  height: 250px;
+  background-color: lightblue;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.boxblack {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* 3 */
+.boxred {
+  width: 90px;
+  height: 90px;
+  background-color: red;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+
+}
+
+/* 4 */
+.box4black {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  position: sticky;
+  top: 0px; 
+  margin-bottom: 30px;
+}
+
+/* 5 */
+.boxgreen {
+  width: 120px;
+  height: 120px;
+  background-color: green;
+}
+
+
+.boxpurple {
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
